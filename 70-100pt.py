@@ -31,17 +31,19 @@ line1 = drawpad.create_line(300,300,450,100)
 line2 = drawpad.create_line(600,300,450,100)
 
 #windows and door
-rectangle2 = drawpad.create_rectangle(350,350,400,400, fill = 'white')
-rectangle3 = drawpad.create_rectangle(500,350,550,400, fill = 'white')
+rectangle2 = drawpad.create_rectangle(350,350,400,400, fill = 'magenta')
+rectangle3 = drawpad.create_rectangle(500,350,550,400, fill = 'magenta')
 
 rectangle4 = drawpad.create_rectangle(425,350,475,500, fill = 'orange')
 
 #door handle
 oval1 = drawpad.create_oval(460,425,470,450, fill = 'yellow')
 
-line3 = drawpad.create_line(550,50,550,230)
+#roof
+
+line3 = drawpad.create_line(525,50,525,200)
 line4 = drawpad.create_line(575,50,575,270)
-line5 = drawpad.create_line(550,50,575,50)
+line5 = drawpad.create_line(525,50,575,50)
 
 #grass
 rectangle5 = drawpad.create_rectangle(800,500,0,600, fill = 'green')
